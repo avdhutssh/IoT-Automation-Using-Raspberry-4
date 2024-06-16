@@ -1,3 +1,4 @@
+# Program to blink Multple LED simulatneously optimized way
 import RPi.GPIO as GPIO
 import time
 
