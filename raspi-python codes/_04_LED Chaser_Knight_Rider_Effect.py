@@ -1,3 +1,4 @@
+# Program to blink Multple LED alternately with knight rider effect
 import RPi.GPIO as GPIO
 import time
 
