@@ -9,7 +9,6 @@ GPIO.setup(26,GPIO.OUT)
 GPIO.setup(21,GPIO.OUT)
 
 try:
-    while True:
         GPIO.output(21,True)
         time.sleep(1)
         GPIO.output(21,False)
