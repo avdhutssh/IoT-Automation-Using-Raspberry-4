@@ -9,12 +9,17 @@ GPIO.setup(26, GPIO.OUT)
 GPIO.setup(21, GPIO.OUT)
 
 try:
-    GPIO.output(21, True)
-    GPIO.output(20, True)
-    GPIO.output(26, True)
-    time.sleep(1)  # Adjust the duration as needed
-    GPIO.output(21, False)
-    GPIO.output(20, False)
-    GPIO.output(26, False)
+    while True:
+        # If relay turns on with LOW signal
+        GPIO.output(21, False)
+        GPIO.output(20, False)
+        GPIO.output(26, False)
+
+        time.sleep(1)  # Adjust the duration as needed
+        GPIO.output(21, True)
+        GPIO.output(20, True)
+        GPIO.output(26, True)
+
+        time.sleep(1)  # Adjust the duration as needed
 finally:
     GPIO.cleanup()
