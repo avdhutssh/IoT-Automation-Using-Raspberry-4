@@ -48,23 +48,23 @@ The Raspberry Pi is a small, affordable computer ideal for IoT projects. With it
 
 ## 🛠️ Components/Devices
 
-Raspberry Pi computer (Pi 3 / Pi 4 / Pi 5, any version)
+    Raspberry Pi computer (Pi 3 / Pi 4 / Pi 5, any version)
 
-Minimum 32 GB MicroSD card
+    Minimum 32 GB MicroSD card
 
-Raspberry Pi power adapter
+    Raspberry Pi power adapter
 
 Sensors/Interfaces Used
 
-LEDs, resistors (common values: 100 ohm, 1k, 10k, 4.7k, 330 ohm)
+    LEDs, resistors (common values: 100 ohm, 1k, 10k, 4.7k, 330 ohm)
 
-Transistorized relay interfacing module
+    Transistorized relay interfacing module
 
-LDR (Light Dependent Resistor)
+    LDR (Light Dependent Resistor)
 
-Capacitor
+    Capacitor
 
-Buzzer
+    Buzzer
 
 ## ▶️ Getting Started
 
