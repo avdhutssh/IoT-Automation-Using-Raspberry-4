@@ -1,3 +1,4 @@
+# Program to control the Buzzer with Morse code
 import RPi.GPIO as GPIO
 import time
 
